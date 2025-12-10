@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products – VESTRO</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+  <nav class="navbar">
+    <div class="nav-left">
+      <div class="logo">VESTRO</div>
+      <span class="tagline">Men's Clothing</span>
+    </div>
+
+    <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a class="active" href="products.html">Products</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <a href="cart.html" class="cart-icon">
+      🛒 <span id="cart-count">0</span>
+    </a>
+  </nav>
+</header>
+
+<section class="product-section">
+  <h2>Men’s Trending Collection</h2>
+  <p class="section-subtitle">Exclusively for men – shirts, tees, jeans & jackets.</p>
+
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="images/shirt1.jpg" alt="Classic Cotton Shirt for Men">
+      <h3>Classic Cotton Shirt</h3>
+      <p class="product-category">Men · Formal Shirt</p>
+      <p class="product-price">₹1,499</p>
+      <button
+        class="add-to-cart"
+        data-name="Classic Cotton Shirt"
+        data-price="1499"
+        data-img="images/shirt1.jpg"
+      >
+        Add to Cart
+      </button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/tshirt1.jpg" alt="Oversized Street T-Shirt for Men">
+      <h3>Oversized Street Tee</h3>
+      <p class="product-category">Men · Casual T-Shirt</p>
+      <p class="product-price">₹899</p>
+      <button
+        class="add-to-cart"
+        data-name="Oversized Street Tee"
+        data-price="899"
+        data-img="images/tshirt1.jpg"
+      >
+        Add to Cart
+      </button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/jeans1.jpg" alt="Denim Slim Fit Jeans for Men">
+      <h3>Denim Slim Fit Jeans</h3>
+      <p class="product-category">Men · Denim Jeans</p>
+      <p class="product-price">₹1,999</p>
+      <button
+        class="add-to-cart"
+        data-name="Denim Slim Fit Jeans"
+        data-price="1999"
+        data-img="images/jeans1.jpg"
+      >
+        Add to Cart
+      </button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/jacket1.jpg" alt="Leather Winter Jacket for Men">
+      <h3>Leather Winter Jacket</h3>
+      <p class="product-category">Men · Winter Jacket</p>
+      <p class="product-price">₹4,299</p>
+      <button
+        class="add-to-cart"
+        data-name="Leather Winter Jacket"
+        data-price="4299"
+        data-img="images/jacket1.jpg"
+      >
+        Add to Cart
+      </button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 VESTRO – Men’s Clothing. All Rights Reserved.</p>
+</footer>
+</body>
+</html>

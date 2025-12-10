@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vestro · Men's Clothing</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <div class="logo">Vestro</div>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="cart-btn" id="openCartBtn">
+        🛒 Cart <span id="cart-count">0</span>
+      </button>
+    </nav>
+
+    <!-- HERO with background image -->
+    <section id="hero" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <p class="hero-badge">Men Only • Premium Styles</p>
+        <h1>Upgrade Your Wardrobe with Vestro</h1>
+        <p class="hero-subtitle">
+          Curated menswear – shirts, tees, denim & jackets, crafted for modern gentlemen.
+        </p>
+        <div class="hero-actions">
+          <a href="#shop" class="btn primary">Shop Now</a>
+          <a href="#about" class="btn ghost">Why Vestro?</a>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <!-- SHOP SECTION -->
+    <section id="shop" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Featured for Him</h2>
+          <p>Hand-picked pieces for everyday confidence.</p>
+        </div>
+
+        <div class="product-grid">
+          <!-- Product 1 -->
+          <article class="product-card">
+            <div class="product-img-wrap">
+              <img
+                src="https://images.pexels.com/photos/20337705/pexels-photo-20337705.jpeg?cs=srgb&dl=pexels-blanxybuilding-20337705.jpg&fm=jpg"
+                alt="Classic white shirt"
+              />
+            </div>
+            <h3>Classic Oxford Shirt</h3>
+            <p class="product-category">Shirts</p>
+            <p class="product-price">₹1,499</p>
+            <button
+              class="btn add-to-cart"
+              data-id="1"
+              data-name="Classic Oxford Shirt"
+              data-price="1499"
+            >
+              Add to Cart
+            </button>
+          </article>
+
+          <!-- Product 2 -->
+          <article class="product-card">
+            <div class="product-img-wrap">
+              <img
+                src="https://images.pexels.com/photos/16646931/pexels-photo-16646931.jpeg?cs=srgb&dl=pexels-levente-balla-16646931.jpg&fm=jpg"
+                alt="Black casual t-shirt"
+              />
+            </div>
+            <h3>Everyday Crew T-Shirt</h3>
+            <p class="product-category">T-Shirts</p>
+            <p class="product-price">₹799</p>
+            <button
+              class="btn add-to-cart"
+              data-id="2"
+              data-name="Everyday Crew T-Shirt"
+              data-price="799"
+            >
+              Add to Cart
+            </button>
+          </article>
+
+          <!-- Product 3 -->
+          <article class="product-card">
+            <div class="product-img-wrap">
+              <img
+                src="https://images.pexels.com/photos/10133278/pexels-photo-10133278.jpeg?cs=srgb&dl=pexels-johndetochka-10133278.jpg&fm=jpg"
+                alt="Blue denim jeans"
+              />
+            </div>
+            <h3>Slim Fit Denim</h3>
+            <p class="product-category">Denim</p>
+            <p class="product-price">₹1,899</p>
+            <button
+              class="btn add-to-cart"
+              data-id="3"
+              data-name="Slim Fit Denim"
+              data-price="1899"
+            >
+              Add to Cart
+            </button>
+          </article>
+
+          <!-- Product 4 -->
+          <article class="product-card">
+            <div class="product-img-wrap">
+              <img
+                src="https://images.pexels.com/photos/1124468/pexels-photo-1124468.jpeg?cs=srgb&dl=pexels-amanjakhar-1124468.jpg&fm=jpg"
+                alt="Black leather jacket"
+              />
+            </div>
+            <h3>Midnight Leather Jacket</h3>
+            <p class="product-category">Jackets</p>
+            <p class="product-price">₹3,999</p>
+            <button
+              class="btn add-to-cart"
+              data-id="4"
+              data-name="Midnight Leather Jacket"
+              data-price="3999"
+            >
+              Add to Cart
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- INFO STRIP WITH BACKGROUND TEXTURE -->
+    <section class="section section-highlight">
+      <div class="section-overlay"></div>
+      <div class="container highlight-content">
+        <div>
+          <h2>Built for Modern Men</h2>
+          <p>
+            Vestro focuses only on men’s fashion – clean fits, premium fabrics, and a minimal
+            shopping experience.
+          </p>
+        </div>
+        <ul class="highlight-list">
+          <li>✔ Handpicked Menswear</li>
+          <li>✔ Secure Online Payment</li>
+          <li>✔ Easy 7-Day Returns</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div>
+          <h2>About Vestro</h2>
+          <p>
+            Vestro is a dedicated menswear brand that blends classic silhouettes with today’s
+            minimalist look. From shirts to denim and outerwear, every piece is designed to be
+            versatile and comfortable.
+          </p>
+          <p>
+            Our mission is simple: <strong>less noise, more style</strong>. No endless scrolling,
+            no confusing categories – just a clean selection of pieces that actually fit your life.
+          </p>
+        </div>
+        <div class="about-card">
+          <h3>Why Men Choose Us</h3>
+          <ul>
+            <li>Neutral colors that match everything</li>
+            <li>Premium feel at fair prices</li>
+            <li>Carefully curated capsule collections</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact & Support</h2>
+          <p>Have questions about sizes, fits or orders? Our support team is here for you.</p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> support@vestro.store</li>
+            <li><strong>Phone:</strong> +91-98765-43210</li>
+            <li><strong>Hours:</strong> Mon–Sat, 9am – 7pm</li>
+          </ul>
+        </div>
+
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="3" placeholder="How can we help?" required></textarea>
+          </div>
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- CART SIDEBAR -->
+  <aside class="cart-panel" id="cartPanel" aria-hidden="true">
+    <div class="cart-header">
+      <h2>Your Cart</h2>
+      <button class="cart-close" id="closeCartBtn">✕</button>
+    </div>
+    <div id="cart-items" class="cart-items">
+      <p class="cart-empty">Your cart is empty.</p>
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>Total:</span>
+        <strong>₹<span id="cart-total">0</span></strong>
+      </div>
+      <button class="btn ghost" id="clearCartBtn">Clear Cart</button>
+      <button class="btn primary" disabled id="checkoutBtn">Checkout</button>
+      <p class="cart-note">* Demo cart – no real payments.</p>
+    </div>
+  </aside>
+
+  <!-- CART BACKDROP -->
+  <div class="backdrop" id="cartBackdrop"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

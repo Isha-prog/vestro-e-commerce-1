@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vestro · Men's Clothing</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="nav container">
+            <div class="logo">Vestro</div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                ☰
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <!-- <li><a href="">Shop</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li> -->
+            </ul>
+
+            <!-- <button class="cart-btn" id="openCartBtn">
+                🛒 Cart <span id="cart-count">0</span>
+            </button> -->
+        </nav>
+
+        <!-- HERO with background image -->
+       
+
+    <!-- MAIN -->
+     <div class="payment-head">
+        <h1>Scan & Pay</h1>
+        <!-- <div class="cart-total-row">
+            <span>Total Need To Pay:</span>
+            <strong>₹<span id="cart-total">0</span></strong>
+        </div> -->
+        <img src="qrImg.jpg" alt="qr code"height="300px" width="300px"/>
+     </div>
+     
+    <!-- CART SIDEBAR -->
+    <aside class="cart-panel" id="cartPanel" aria-hidden="true">
+        <div class="cart-header">
+            <h2>Your Cart</h2>
+            <button class="cart-close" id="closeCartBtn">✕</button>
+        </div>
+        <div id="cart-items" class="cart-items">
+            <p class="cart-empty">Your cart is empty.</p>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total-row">
+                <span>Total:</span>
+                <strong>₹<span id="cart-total">0</span></strong>
+            </div>
+            <button class="btn ghost" id="clearCartBtn">Clear Cart</button>
+            <button class="btn primary" disabled id="checkoutBtn">Checkout</button>
+            <p class="cart-note">* Demo cart – no real payments.</p>
+        </div>
+    </aside>
+
+    <!-- CART BACKDROP -->
+    <div class="backdrop" id="cartBackdrop"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
